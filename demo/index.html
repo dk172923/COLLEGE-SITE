@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tagore Engineering College</title>
+<style>
+body {
+font-family: 'Open Sans', sans-serif;
+}
+.logo-title{
+width: min-content;
+height: min-content;
+}
+.top{
+display: flex;
+column-gap: 200px;
+background-color: #f8f8f8;
+padding: 20px;
+}
+.contents{
+background-color:beige;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+margin: 30px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.content-text{
+flex: 1;
+text-align: justify;
+}
+.content-image{
+flex: 1;
+display: flex;
+justify-content: center;
+}
+.content-image img{
+max-width: 100%;
+}
+.top-title{
+background-color: beige;
+border-radius: 10px;
+padding: 20px;
+}
+.navbar {
+justify-content: space-around;
+width: 95%;
+display: flex;
+padding: 15px;
+border-radius: 5px;
+align-items:center;
+background-color: #333;
+font-size: 15px;
+}
+.navbar a {
+color: white;
+padding: 14px 20px;
+text-decoration: none;
+}
+.navbar a:hover {
+background-color: #ddd;
+color: black;
+}
+.dropdown {
+position: relative;
+display: inline-block;
+cursor: pointer;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+color: black;
+padding: 10px 16px;
+text-decoration: none;
+display: block;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+margin-top: 18px;
+}
+.content {
+margin-top: 20px;
+}
+.btn{
+display: inline-block;
+padding: 10px 20px;
+background-color: #333;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: background-color 0.2s ease;
+cursor: pointer;
+}
+.btn:hover{
+background-color: #555;
+}
+.footer {
+background-color: #333;
+color: white;
+padding: 10px;
+text-align: center;
+border-radius: 5px;
+}
+</style>
+</head>
+<body>
+<div class="top">
+<div class="logo-title"><img src="./logo1.jpeg" alt="Tagore Engineering College Logo"></div>
+<div class="top-title">
+<h1 style="text-align:center; color: brown;">Tagore Engineering College</h1>
+<h2 style="text-align:center;">Rathinamangalam, Vandalur (via), Chennai - 600127</h2>
+<h3 style="text-align: center;">Approved by AICTE, New Delhi | Affiliated to Anna University, Chennai</h3>
+</div>
+<div class="logo-title"><img src="./annunivlogo.png" alt="Anna University"></div>
+</div>
+<center><div class="navbar">
+<div class="dropdown">
+<a href="#">Home</a>
+<div class="dropdown-content">
+<a href="#">Vision and Mission</a>
+<a href="#">Chairman's Message</a>
+<a href="#">Principal's Message</a>
+</div>
+</div>
+<div class="dropdown">
+<a href="#">Academics</a>
+<div class="dropdown-content">
+<a href="#">Departments</a>
+<a href="#">Courses</a>
+<a href="#">Admission</a>
+</div>
+</div>
+<div class="dropdown">
+<a href="#">Facilities</a>
+<div class="dropdown-content">
+<a href="#">Library</a>
+<a href="#">Transport</a>
+<a href="#">Hostel</a>
+</div>
+</div>
+<div class="dropdown">
+<a href="#">Placement</a>
+<div class="dropdown-content">
+<a href="#">Our Recruiters</a>
+<a href="#">Internship</a>
+<a href="#">Placement Details</a>
+</div>
+</div>
+<div class="dropdown">
+<a href="#">Research</a>
+<div class="dropdown-content">
+<a href="#">Research Centers</a>
+<a href="#">Publications</a>
+<a href="#">Projects</a>
+</div>
+</div>
+<div class="dropdown">
+<a href="#">Committee</a>
+<div class="dropdown-content">
+<a href="#">Anti Ragging Cell</a>
+<a href="#">Grievances</a>
+<a href="#">Other Committees</a>
+</div>
+</div>
+<div class="dropdown">
+<a href="#">Careers</a>
+<div class="dropdown-content">
+<a href="#">Current Openings</a>
+<a href="#">Apply Online</a>
+<a href="#">Employee Benefits</a>
+</div>
+</div>
+<div class="dropdown">
+<a href="#">ContactUs</a>
+<div class="dropdown-content">
+<a href="#">Address and Map</a>
+<a href="#">Phone and Email</a>
+<a href="#">Feedback Form</a>
+</div>
+</div>
+</div></center>
+<div class="contents">
+<div class="content-text"> <h4>ABOUT US</h4>
+<p>
+The college has a mission to build resources and sustain a high quality teaching and learning environment,
+to provide state-of-the-art facilities to the faculty & students, to integrate character, ethical and moral values
+into human resources. The policies implemented by the management provide ample opportunities to the students and
+the staff to achieve excellence in academic and related areas.
+We envision the holistic development of our students into vibrant professionals, conscious of human values and eco-friendly
+environment and competent in skills. We leverage the above by providing all the departments with adequate infrastructural facilities
+and dedicated staff.</p>
+<button class="btn">Learn More</button>
+</div>
+<div class="content-image"><img src="./front build.png" alt="front building"></div>
+</div>
+<div class="content">
+<h3 style="text-align:center;">Placement Stats for the year 2022-23:</h3>
+<p style="text-align:center;">
+Total No. of Students Placed: 410/500 (82%)<br>
+Average Salary of the Batch: 5.1 Lakhs per annum<br>
+Highest Salary Offered: 12 Lakhs per annum by Amazon Web Services<br>
+</p>
+<p style="text-align:center;">Source: <a href="https://www.tagore-engg.ac.in/placement-report-2022-23.pdf">Tagore Engineering College Placement Report</a></p>
+</div>
+<form style="display: flex; justify-content: center;" method="get" action="http://localhost:8080/Mini_Project/contactus.html">
+<button style="border-radius: 8px; padding: 10px; margin: 10px;background-color:darkcyan;">Contact Us</button>
+</form>
+<!-- Footer -->
+<div class="footer">
+<p>&copy; 2023 Tagore Engineering College. All rights reserved.</p>
+</div>
+</body>
+</html>
